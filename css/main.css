@@ -20,10 +20,10 @@ body {
   height: 75px;
   margin: 10px 30px;
 }
-.header .img {
+.header img {
   width: 150px;
 }
-.header .div {
+.header div{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -45,36 +45,48 @@ body {
   border-radius: 5px;
 }
 .section01 {
-  background-image: url(/assets/backround.png);
-  height: 700px;
-  width: 100vw;
-  color: #fff;
+  background-image: url("/assets/background.png");
   box-shadow: 0px 8px #222222;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display:absolute;
+  max-width: 100%;
+  height: auto;
+  z-index: -10;
 }
-.section01 .div {
+.section01 div{
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  padding: 20vh 30vw;
+  padding-top: 20vh;
 }
 .section01 h1 {
   font-family: 'Martel Sans', sans-serif;
   font-weight: 700;
-  font-size: 3.3rem;
+  font-size: 3.125rem;
+  text-align: center;
 }
 .section01 h2 {
   font-family: 'Martel Sans', sans-serif;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.625rem;
+  text-align: center;
 }
 .section01 h3 {
   font-family: 'Martel Sans', sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
 }
 .subscribe {
   display: flex;
+  padding-top: 0;
+  padding-bottom: 20vh;
 }
 .subscribe .lbl {
   height: 70px;
