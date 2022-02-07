@@ -19,6 +19,7 @@ body {
   padding: 20px;
   height: 75px;
   margin: 10px 30px;
+  z-index: 1;
 }
 .header img {
   width: 150px;
@@ -55,7 +56,6 @@ body {
   display:absolute;
   max-width: 100%;
   height: auto;
-  z-index: -10;
 }
 .section01 div{
   display: flex;
